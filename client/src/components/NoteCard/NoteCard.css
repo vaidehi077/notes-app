@@ -1,0 +1,48 @@
+.note-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+  padding: 20px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.note-card:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.note-card-title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.note-card-content {
+  margin-bottom: 10px;
+}
+
+.note-card-category {
+  display: inline-block;
+  background: #f0f0f0;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.note-card-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.update-icon,
+.delete-icon {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+.update-icon:hover,
+.delete-icon:hover {
+  opacity: 0.7;
+}
