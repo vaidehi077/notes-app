@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios';
 import './Home.css'
-import NoteCard from "./../../components/NoteCard/NoteCard"
+import NoteCard from '../../components/NoteCard/NoteCard';
 
 function Home() {
   const [notes, setNotes] = useState([]);
